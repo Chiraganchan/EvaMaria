@@ -1,6 +1,7 @@
 class script(object):
     START_TXT = """Yo..Yo..🙋 {},
-I Am Auto Powerful Bot, U Can Use Me As Auto Filter Bot In Your Group, Its Easy To Use Me:Just Add Me To Your Group❄,As Admin That's All I'll Provide Movies There😎.."""
+I Am Auto Powerful Bot, U Can Use Me As Auto Filter Bot In Your Group, Its Easy To Use Me:Just Add Me To Your Group❄,As Admin That's All I'll Provide Movies There😎..
+MaintaineD By ©@chirag_admim"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
