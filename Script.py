@@ -3,7 +3,6 @@ class script(object):
 Filter Bot, You Can Use Me As A Auto-
 Filter Bot In Your Group..
 
-
 Its Easy To Use Me:Just Add Me To
 Your Group❄,As Admin That's All I Will,
 Provide Movies There..😎
