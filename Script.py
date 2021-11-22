@@ -14,7 +14,7 @@ MAINTAINED BY ©@chirag_admin"""
     HELP_TXT = """h̷e̷y̷ {}
 ̷h̷e̷r̷e̷ i̷s̷ h̷e̷l̷p̷ f̷o̷r̷ m̷y̷ c̷o̷m̷m̷a̷n̷d̷.̷"""
 
-   ABOUT_TXT = """ＡＢＯＵＴ ＭＳＧ
+   ABOUT_TXT = """ About message
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ ＰＵＮＥＥＴＨ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
