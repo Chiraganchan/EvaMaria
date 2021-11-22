@@ -11,10 +11,10 @@ Provide Movies There..😎
 Below
 
 MAINTAINED BY ©@chirag_admin"""
-    нεℓρ_TXT = """h̷e̷y̷ {}
+    HELP_TXT = """h̷e̷y̷ {}
 ̷h̷e̷r̷e̷ i̷s̷ h̷e̷l̷p̷ f̷o̷r̷ m̷y̷ c̷o̷m̷m̷a̷n̷d̷.̷"""
 
-   αвσυт_TXT = """ＡＢＯＵＴ ＭＳＧ
+   ABOUT_TXT = """ＡＢＯＵＴ ＭＳＧ
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ ＰＵＮＥＥＴＨ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
@@ -27,13 +27,13 @@ MAINTAINED BY ©@chirag_admin"""
 ║┣⪼ ＢＯＴ ＳＥＲＶＥＲ -  ＨＥＲＵＫＯ
 ║┣⪼ ＢＵＩＬＤ ＳＴＡＴＵＳ - v1.0.1 [ ＢＥＴＡ ]
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
-    sσυяcε_TXT = """<b>NOTE:</b>
+    SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project.
 - Source - https://github.com/EvamariaTG/EvaMaria  
 
 <b>DEVS:</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
-    мαηυεℓғιℓтεя_TXT = """Help: <b>Filters</b>
+    MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
@@ -47,7 +47,7 @@ MAINTAINED BY ©@chirag_admin"""
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    вυттση_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Eva Maria Supports both url and alert inline buttons.
 
@@ -61,14 +61,14 @@ MAINTAINED BY ©@chirag_admin"""
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    αυтσғιℓтεя_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
 2. make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
-    cσηηεcтιση_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
@@ -81,7 +81,7 @@ MAINTAINED BY ©@chirag_admin"""
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    εxтяαмσ∂_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
 these are the extra features of Eva Maria
@@ -91,7 +91,7 @@ these are the extra features of Eva Maria
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
-    α∂мιη_TXT = """Help: <b>Admin mods</b>
+    ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
 This module only works for my admins
@@ -108,7 +108,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    sтαтυs_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
