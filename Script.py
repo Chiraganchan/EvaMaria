@@ -1,16 +1,13 @@
 class script(object):
-    START_TXT = """Yo..Yo..🙋 {},I Am Powerful Auto-
-Filter Bot, You Can Use Me As A Auto-
-Filter Bot In Your Group..
+    START_TXT = """Hey,🙋 {},
 
-Its Easy To Use Me:Just Add Me To
-Your Group❄,As Admin That's All I Will,
-Provide Movies There..😎
+ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
-⚠More Help Check Help Button
-Below
+wσrkíng σffícíαllч αt @KR_MOVIES_K
 
-MAINTAINED BY ©@chirag_admin"""
+Use "🔍 Search Here" option to Search for Files INLINE. To know More about my Functions Click 🔘 Help.
+
+©MAINTAINED BY https://t.me/Chirag_admin"""
     HELP_TXT = """h̷e̷y̷ {}
 ̷h̷e̷r̷e̷ i̷s̷ h̷e̷l̷p̷ f̷o̷r̷ m̷y̷ c̷o̷m̷m̷a̷n̷d̷.̷"""
     SOURCE_TXT = """<b>NOTE:</b>
