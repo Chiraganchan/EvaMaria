@@ -463,19 +463,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton("Filter♂️", callback_data='manuelfilter'),
-            InlineKeyboardButton("AutoFilter♂️", callback_data='autofilter')
-            ],[                          
-            InlineKeyboardButton("Extra Mode♂️", callback_data='extra'),
-            InlineKeyboardButton("Connection♂️", callback_data='coct')
-            ],[                           
-            InlineKeyboardButton("🤠 Status 🤠", callback_data='stats'),
-            ],[                     
-            InlineKeyboardButton("🏕️ Home", callback_data='start'),
-            InlineKeyboardButton("🗑️ Close 🗑️", callback_data='close_data'),
+            InlineKeyboardButton("💖 ғιℓтεя 💖", callback_data='manuelfilter'),
+            InlineKeyboardButton("🔰 αυтσғιℓтεя 🔰", callback_data='autofilter'),                         
+            InlineKeyboardButton("🔱 εxтяα мσ∂ 🔱", callback_data='extra')
             ],[
-            InlineKeyboardButton("About 🔥", callback_data="about"),
-            InlineKeyboardButton("🎬ímdв🎬", callback_data="IMDb")                                                            
+            InlineKeyboardButton("🔶 cσηηεcтιση 🔶", callback_data='coct'),                          
+            InlineKeyboardButton("📊 sтαтυs 📊", callback_data='stats'),                    
+            InlineKeyboardButton("🕍 нσмε 🕍", callback_data='start')
+            ],[
+            InlineKeyboardButton("⛔ cℓσsε ⛔", callback_data='close_data'),
+            InlineKeyboardButton("😎 αвσυт 😎", callback_data="about"),
+            InlineKeyboardButton("🎬 ímdв 🎬", callback_data="IMDb")                                                            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
