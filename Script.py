@@ -3,11 +3,10 @@ class script(object):
 
 ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
-wσrkíng σffícíαllч αt @KR_MOVIES_K
-
+wσrkíng σffícíαllч αt <a href=https://t.me/KR_MOVIES_K>KR MOVIES</a>
 Use "🔍 Search Here" option to Search for Files INLINE. To know More about my Functions Click 🔘 Help.
 
-©MAINTAINED BY<a href=https://t.me/Chirag_admin</a>"""
+©MAINTAINED BY<a href=https://t.me/Chirag_admin>Chirag Admin</a>"""
     HELP_TXT = """h̷e̷y̷ {}
 ̷h̷e̷r̷e̷ i̷s̷ h̷e̷l̷p̷ f̷o̷r̷ m̷y̷ c̷o̷m̷m̷a̷n̷d̷.̷"""
     ABOUT_TXT = """✯ MY NAME: {}
