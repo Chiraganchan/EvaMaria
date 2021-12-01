@@ -42,9 +42,11 @@ async def start(client, message):
             InlineKeyboardButton('🔍 ʂҽαɾ८ԋ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 υρԃα✞ҽʂ', url='https://t.me/KR_MOVIES_K')
             ],[
+            InlineKeyboardButton('🔮gяσυρ', url='https://t.me/Kannada_cinema_clubss')
+            ],[
             InlineKeyboardButton('ℹ️ ԋҽʅρ', callback_data='help'),
             InlineKeyboardButton('😊 αυႦσυ✞', callback_data='about')
-        ]]
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -82,6 +84,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 ʂҽαɾ८ԋ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 υρԃα✞ҽʂ', url='https://t.me/KR_MOVIES_K')
+            ],[
+            InlineKeyboardButton('🔮gяσυρ', url='https://t.me/Kannada_cinema_clubss')
             ],[
             InlineKeyboardButton('ℹ️ ԋҽʅρ', callback_data='help'),
             InlineKeyboardButton('😊 αυႦσυ✞', callback_data='about')
