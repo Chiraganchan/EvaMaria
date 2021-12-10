@@ -3,7 +3,7 @@ class script(object):
 
 ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
-wσrkíng σffícíαllч αt <a href=https://t.me/KR_MOVIES_K>KR MOVIES</a>
+wσrkíng σffícíαllч αt <a href=https://t.me/KDMMOVIES_KANNADA>KDM MOVIES</a>
 Use "🔍 Search Here" option to Search for Files INLINE. To know More about my Functions Click 🔘 Help.
 
 ©MAINTAINED BY<a href=https://t.me/Chirag_admin>Chirag Admin</a>"""
