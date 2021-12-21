@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """Hey,🙋 {},
+    START_TXT = """Hello,🙋 {},
 
 ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
