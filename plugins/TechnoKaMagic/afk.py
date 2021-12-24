@@ -1,10 +1,10 @@
 import random, html
 
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.disable import (DisableAbleCommandHandler,
+from TechnoKaMagic import dispatcher
+from TechnoKaMagic.modules.disable import (DisableAbleCommandHandler,
                                           DisableAbleMessageHandler)
-from SaitamaRobot.modules.sql import afk_sql as sql
-from SaitamaRobot.modules.users import get_user_id
+from TechnoKaMagic.modules.sql import afk_sql as sql
+from TechnoKaMagic.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
