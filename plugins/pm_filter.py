@@ -599,7 +599,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "IMDb":
         buttons = [[
-            InlineKeyboardButton('💀 Back 💀', callback_data='extra')
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -609,7 +609,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "Music":
         buttons = [[
-            InlineKeyboardButton('💀 Back 💀', callback_data='extra')
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -619,7 +619,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "Purge":
         buttons = [[
-            InlineKeyboardButton('💀 Back 💀', callback_data='extra')
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -629,7 +629,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "id":
         buttons = [[
-            InlineKeyboardButton('💀 Back 💀', callback_data='extra')
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
