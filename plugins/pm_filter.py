@@ -1,4 +1,4 @@
-#Kanged From @TroJanZheX
+X#Kanged From @TroJanZheX
 import asyncio
 import re
 import ast
@@ -465,26 +465,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton("FILTER", callback_data='manuelfilter'),
-            InlineKeyboardButton("AUTOFILTER", callback_data='autofilter'),                         
-            InlineKeyboardButton("EXTRAMOD", callback_data='extra')
+            InlineKeyboardButton("ғɪʟᴛᴇʀ", callback_data='manuelfilter'),
+            InlineKeyboardButton("ᴀᴜᴛᴏғɪʟᴛᴇʀ", callback_data='autofilter'),                         
+            InlineKeyboardButton("ᴇxᴛʀᴀᴍᴏᴅ", callback_data='extra')
             ],[
-            InlineKeyboardButton("CONNECTION", callback_data='coct'),                          
-            InlineKeyboardButton("STATUS", callback_data='stats'),                  
-            InlineKeyboardButton('UPDATES', url='https://t.me/KDM_MOVIESDJ')
+            InlineKeyboardButton("ᴄᴏɴɴᴇᴄᴛɪᴏɴ", callback_data='coct'),                          
+            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='stats'),                  
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/KDM_MOVIESDJ')
             ],[
-            InlineKeyboardButton('SOURCE', callback_data='source'),
-            InlineKeyboardButton('ADMIM', callback_data='admin'),
-            InlineKeyboardButton("IMDb", callback_data="IMDb")         
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin'),
+            InlineKeyboardButton("ɪᴍᴅʙ", callback_data="IMDb")         
             ],[
-            InlineKeyboardButton('ABOUT', callback_data='about'),
-            InlineKeyboardButton('BUTTON', callback_data='button'),
-            InlineKeyboardButton('MUSIC', callback_data='Music')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button'),
+            InlineKeyboardButton('ᴍᴜsɪᴄ', callback_data='Music')
             ],[
-            InlineKeyboardButton("PURGE", callback_data='Purge')
+            InlineKeyboardButton("ᴘᴜʀɢᴇ", callback_data='Purge'),
+            InlineKeyboardButton("ᴡʜᴏɪs", callback_data='Whois')
             ],[
-            InlineKeyboardButton("HOME", callback_data='start'),
-            InlineKeyboardButton("CLOSE", callback_data='close_data')
+            InlineKeyboardButton("ʜᴏᴍᴇ", callback_data='start'),
+            InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -623,6 +624,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.PURGE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "Whois":
+        buttons = [[
+            InlineKeyboardButton('💀 Back 💀', callback_data='extra')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.WHOIS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
