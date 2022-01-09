@@ -118,7 +118,7 @@ Song Download Module, For Those Who Love Music
 
 🎈 Command
 
-• /song(songname) - download song from yt servers.
+• /song songname - download song from yt servers.
 
 Usage
 - working pm and groups"""
