@@ -110,8 +110,8 @@ This module only works for my admins
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
     IMDb_TXT = """NOTE:
 
-• /imdb  - get the film information from IMDb source.
-• /search  - get the film information from various sources."""
+• /imdb  - <code>get the film information from IMDb source.</code>
+• /search  - <code>get the film information from various sources.</code>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
