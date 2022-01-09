@@ -465,27 +465,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton("ғɪʟᴛᴇʀ", callback_data='manuelfilter'),
-            InlineKeyboardButton("ᴀᴜᴛᴏғɪʟᴛᴇʀ", callback_data='autofilter'),                         
-            InlineKeyboardButton("ᴇxᴛʀᴀᴍᴏᴅ", callback_data='extra')
+            InlineKeyboardButton("ⓜⓐⓝⓤⓐⓛⓕⓘⓛⓣⓔⓡ", callback_data='manuelfilter'),
+            InlineKeyboardButton("ⓐⓤⓣⓞⓕⓘⓛⓣⓔⓡ", callback_data='autofilter'),                         
+            InlineKeyboardButton("ⓔⓧⓣⓡⓐⓜⓞⓓ", callback_data='extra')
             ],[
-            InlineKeyboardButton("ᴄᴏɴɴᴇᴄᴛɪᴏɴ", callback_data='coct'),                          
-            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='stats'),                  
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/KDM_MOVIESDJ')
+            InlineKeyboardButton("ⓒⓞⓝⓝⓔⓒⓣⓘⓞⓝ", callback_data='coct'),                          
+            InlineKeyboardButton("ⓢⓣⓐⓣⓤⓢ", callback_data='stats'),                  
+            InlineKeyboardButton('ⓤⓟⓓⓐⓣⓔⓢ', url='https://t.me/KDM_MOVIESDJ')
             ],[
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='source'),
-            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin'),
-            InlineKeyboardButton("ɪᴍᴅʙ", callback_data="IMDb")         
+            InlineKeyboardButton('ⓢⓞⓤⓡⓒⓔ', callback_data='source'),
+            InlineKeyboardButton('ⓐⓓⓜⓘⓝ', callback_data='admin'),
+            InlineKeyboardButton("ⓘⓜⓓⓑ", callback_data="IMDb")         
             ],[
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button'),
-            InlineKeyboardButton('ᴍᴜsɪᴄ', callback_data='Music')
+            InlineKeyboardButton('ⓐⓑⓞⓤⓣ', callback_data='about'),
+            InlineKeyboardButton('ⓑⓤⓣⓣⓞⓝ', callback_data='button'),
+            InlineKeyboardButton('ⓜⓤⓢⓘⓒ', callback_data='Music')
             ],[
-            InlineKeyboardButton("ᴘᴜʀɢᴇ", callback_data='Purge'),
-            InlineKeyboardButton("ᴡʜᴏɪs", callback_data='id')
+            InlineKeyboardButton("ⓟⓤⓡⓖⓔ", callback_data='Purge'),
+            InlineKeyboardButton("ⓦⓗⓞⓘⓢ", callback_data='id')
             ],[
-            InlineKeyboardButton("ʜᴏᴍᴇ", callback_data='start'),
-            InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data='close_data')
+            InlineKeyboardButton("ⓗⓞⓜⓔ", callback_data='start'),
+            InlineKeyboardButton("ⓒⓛⓞⓢⓔ", callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
