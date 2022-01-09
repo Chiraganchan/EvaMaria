@@ -482,7 +482,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜsɪᴄ', callback_data='Music')
             ],[
             InlineKeyboardButton("ᴘᴜʀɢᴇ", callback_data='Purge'),
-            InlineKeyboardButton("ᴡʜᴏɪs", callback_data='Whois')
+            InlineKeyboardButton("ᴡʜᴏɪs", callback_data='id')
             ],[
             InlineKeyboardButton("ʜᴏᴍᴇ", callback_data='start'),
             InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data='close_data')
@@ -627,13 +627,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "Whois":
+    elif query.data == "id":
         buttons = [[
             InlineKeyboardButton('💀 Back 💀', callback_data='extra')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.WHOIS_TXT,
+            text=script.ID_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
