@@ -474,13 +474,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🤖 υρ∂αтεs', url='https://t.me/KDM_MOVIESDJ')
             ],[
             InlineKeyboardButton('♥️ sσυяcε', callback_data='source'),
-            InlineKeyboardButton("😎 αвσυт 😎", callback_data="about"),
+            InlineKeyboardButton('👮‍♂️ Admin', callback_data='admin'),
             InlineKeyboardButton("🎬 ímdв 🎬", callback_data="IMDb")         
             ],[
             InlineKeyboardButton("⛔ cℓσsε ⛔", callback_data='close_data'),
             InlineKeyboardButton('😊 αυႦσυ✞', callback_data='about'),
             InlineKeyboardButton("🕍 нσмε 🕍", callback_data='start')
-        ]]       
+            ],[
+            InlineKeyboardButton('⏹️ Buttons', callback_data='button')
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
