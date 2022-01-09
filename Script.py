@@ -133,7 +133,7 @@ NOTE:
 • IMDb should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
-    WHOIS_TXT = """WHOIS MODULE
+    ID_TXT = """WHOIS MODULE
 Note:- Give a user details
 
 •/id :-give a user full details"""
