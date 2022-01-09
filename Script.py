@@ -112,6 +112,16 @@ This module only works for my admins
 
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
+    MUSIC_TXT = """SONG MODULE
+Song Download
+Song Download Module, For Those Who Love Music
+
+🎈 Command
+
+• /song(songname) - download song from yt servers.
+
+Usage
+- working pm and groups"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
