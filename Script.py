@@ -122,6 +122,17 @@ Song Download Module, For Those Who Love Music
 
 Usage
 - working pm and groups"""
+    PURGE_TXT = """Help: Purge
+
+Need to delete lots of messages? That's what purges are for!
+
+Commands and Usage:
+• /purge - delete all messages from the replied to message, to the current message.
+
+NOTE:
+• IMDb should have admin privillage.
+• These commands works on group.
+• These commands can be used by Only admin."""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
