@@ -126,6 +126,7 @@ Usage
 ➡️ /covid (countryname) you can find a corona information of every country
 
 ➡️ example : - /covid India"""
+    STICKERS_TXT = """HI"""
     PURGE_TXT = """Help: Purge
 
 Need to delete lots of messages? That's what purges are for!
