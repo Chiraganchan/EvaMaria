@@ -489,7 +489,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ᴄᴏʀᴏɴᴀ", callback_data='covid'),
             InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data='close_data')
             ],[
-            InlineKeyboardButton("ʜᴏᴍᴇ", callback_data='start')
+            InlineKeyboardButton("ʜᴏᴍᴇ", callback_data='start'),
+            InlineKeyboardButton("sᴛɪᴄᴋᴇʀ", callback_data='stickerid')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -638,6 +639,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.PURGE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "stickerid":
+        buttons = [[
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')      
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.STICKERS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
