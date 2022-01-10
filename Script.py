@@ -140,6 +140,16 @@ Note:- Give a user details
     ALIVE_TXT = """ALIVE MODULE
 • /start - check me alive or dead🤧
 Just for a rasam😂"""
+    BANS_TXT = """Here is some help for the Bans module:
+
+Some people need to be publicly banned; spammers, annoyances, or just trolls.
+
+This module allows you to do that easily, by exposing some common actions, so everyone will see!
+
+Available Commands Are:
+-/ban:Ban a user in the chat
+-/unban:Unban a user in the chat"""
+
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
