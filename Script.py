@@ -122,7 +122,7 @@ Song Download Module, For Those Who Love Music
 
 Usage
 - working pm and groups"""
-COVID_TXT = """A Module to find Covid Information"""
+    COVID_TXT = """A Module to find Covid Information"""
     PURGE_TXT = """Help: Purge
 
 Need to delete lots of messages? That's what purges are for!
