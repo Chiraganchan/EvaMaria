@@ -137,6 +137,9 @@ NOTE:
 Note:- Give a user details
 
 •/id :-give a user full details"""
+    ALIVE_TXT = """ALIVE MODULE
+• /start - check me alive or dead🤧
+Just for a rasam😂"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
