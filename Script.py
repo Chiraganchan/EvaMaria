@@ -122,7 +122,10 @@ Song Download Module, For Those Who Love Music
 
 Usage
 - working pm and groups"""
-    COVID_TXT = """A Module to find Covid Information"""
+    COVID_TXT = """Here is the help for the coron information module
+➡️ /covid (countryname) you can find a corona information of every country
+
+➡️ example : - /covid India"""
     PURGE_TXT = """Help: Purge
 
 Need to delete lots of messages? That's what purges are for!
