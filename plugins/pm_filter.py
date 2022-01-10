@@ -482,7 +482,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜsɪᴄ', callback_data='Music')
             ],[
             InlineKeyboardButton("ᴘᴜʀɢᴇ", callback_data='Purge'),
-            InlineKeyboardButton("ᴡʜᴏɪs", callback_data='id')
+            InlineKeyboardButton("ᴡʜᴏɪs", callback_data='id'),
+            InlineKeyboardButton("ᴀʟɪᴠᴇ", callback_data='Alive')
             ],[
             InlineKeyboardButton("ʜᴏᴍᴇ", callback_data='start'),
             InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data='close_data')
@@ -571,7 +572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('💀 Back 💀', callback_data='extra')
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -634,6 +635,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ID_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "Alive":
+        buttons = [[
+            InlineKeyboardButton('💀 Back 💀', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ALIVE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
