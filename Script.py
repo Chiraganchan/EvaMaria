@@ -126,7 +126,12 @@ Usage
 ➡️ /covid (countryname) you can find a corona information of every country
 
 ➡️ example : - /covid India"""
-    STICKERS_TXT = """HI"""
+    STICKERS_TXT = """STICKER MODULE
+STICKER ID
+
+🎈 Commands coming soon 
+
+Made With ❤️ BY @Chirag_admin"""
     PURGE_TXT = """Help: Purge
 
 Need to delete lots of messages? That's what purges are for!
