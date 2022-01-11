@@ -4,6 +4,8 @@ from io import BytesIO
 from googletrans import Translator
 from gtts import gTTS
 from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 
 def convert_en(text):
     audio = BytesIO()
