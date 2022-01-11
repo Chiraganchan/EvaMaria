@@ -11,4 +11,6 @@ imdbpy
 youtube_dl
 youtube_search
 requests
+googletrans==3.1.0a0
+gTTS
 asyncio==3.4.3
