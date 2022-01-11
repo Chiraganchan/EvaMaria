@@ -18,7 +18,6 @@ def convert_en(text):
 
 
 @Client.on_message(filters.command("tts"))
-    if not message.reply_to_message:
         return await message.reply_text("𝖱𝖾𝗉𝗅𝗒 𝗍𝗈 𝗌𝗈𝗆𝖾 𝗍𝖾𝗑𝗍 𝖿𝖿𝗌.")
     if not message.reply_to_message.text:
         return await message.reply_text("𝖱𝖾𝗉𝗅𝗒 𝗍𝗈 𝗌𝗈𝗆𝖾 𝗍𝖾𝗑𝗍 𝖿𝖿𝗌.")
