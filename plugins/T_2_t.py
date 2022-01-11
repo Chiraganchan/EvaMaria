@@ -3,7 +3,7 @@ from asyncio import get_running_loop
 from io import BytesIO
 from googletrans import Translator
 from gtts import gTTS
-from pyrogram import filters, Client 
+from pyrogram import Client, filters
 
 def convert_en(text):
     audio = BytesIO()
