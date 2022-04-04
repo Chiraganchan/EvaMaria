@@ -444,9 +444,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ αԃԃ ɱҽ ✞σ ყσυɾ ɠɾσυρ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 ʂҽαɾ८ԋ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 υρԃα✞ҽʂ', url='https://t.me/KDMMOVIES_KANNADA')
+            InlineKeyboardButton('🤖 υρԃα✞ҽʂ', url='https://t.me/+3owDFfIgyD1jYmFl')
             ],[
-            InlineKeyboardButton('🔮gяσυρ', url='https://t.me/Kannada_cinema_clubss')
+            InlineKeyboardButton('🔮gяσυρ', url='https://t.me/ALL_MOVIE_CV_REQUEST')
             ],[
             InlineKeyboardButton('ℹ️ ԋҽʅρ', callback_data='help'),
             InlineKeyboardButton('😊 αυႦσυ✞', callback_data='about')
