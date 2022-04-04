@@ -3,10 +3,11 @@ class script(object):
 
 ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
-wσrkíng σffícíαllч αt <a href=https://t.me/KDMMOVIES_KANNADA>KDM MOVIES</a>
+wσrkíng σffícíαllч αt <a href=https://t.me/+3owDFfIgyD1jYmFl</a>
 Use "🔍 Search Here" option to Search for Files INLINE. To know More about my Functions Click 🔘 Help.
 
-©MAINTAINED BY<a href=https://t.me/Chirag_admin>Chirag Admin</a>"""
+©CREATED BY<a href=https://t.me/Chirag_admin>Chirag</a>
+©OWNER OF BOT<a href=https://t.me/Crosspromotiona>UNKOWN</a>"""
     HELP_TXT = """h̷e̷y̷ {}
 ̷h̷e̷r̷e̷ i̷s̷ h̷e̷l̷p̷ f̷o̷r̷ m̷y̷ c̷o̷m̷m̷a̷n̷d̷.̷"""
     ABOUT_TXT = """ABOUT MSG
@@ -14,7 +15,7 @@ Use "🔍 Search Here" option to Search for Files INLINE. To know More about my 
 ╔════❰ ABOUT MSG ❱═❍⊱
 ║╭━━━━━━━━━━━━━━━➣ 
 ║┣⪼ MY NAME - <a href=https://t.me/movie_sarch_bot>Puneeth Rajkumar⚡</a>
-║┣⪼ Dev -  <a href=https://t.me/Chirag_admin>Chirag Admin</a>
+║┣⪼ CREATED -  <a href=https://t.me/Chirag_admin>Chirag Admin</a>
 ║┣⪼ GROUP -  <a href=https://t.me/Kannada_cinema_clubss>Click here</a>
 ║┣⪼ Library - PYROGRAM
 ║┣⪼ Language - PYTHON 3
