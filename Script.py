@@ -3,10 +3,10 @@ class script(object):
 
 ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
-wσrkíng σffícíαllч αt <a href=https://t.me/+3owDFfIgyD1jYmFl</a>
+wσrkíng σffícíαllч αt <a href=https://t.me/+3owDFfIgyD1jYmFl>CV</a>
 Use "🔍 Search Here" option to Search for Files INLINE. To know More about my Functions Click 🔘 Help.
 
-Join Our Official YoutubeChannel To Use This Bot <a href=https://youtube.com/channel/UCauu4k2yRARkm0PiaJ3oTtA</a>
+Join Our Official YoutubeChannel To Use This Bot <a href=https://youtube.com/channel/UCauu4k2yRARkm0PiaJ3oTtA>CS STUDIO</a>
 
 ©CREATED BY<a href=https://t.me/Chirag_admin>Chirag</a>
 ©OWNER OF BOT<a href=https://t.me/Crosspromotiona>UNKOWN</a>"""
