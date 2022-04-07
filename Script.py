@@ -3,12 +3,12 @@ class script(object):
 
 ιм נυsт αη 🇦‌🇺‌🇹‌🇴‌-🇫‌🇮‌🇱‌🇹‌🇪‌🇷‌ вσt.
 
-wσrkíng σffícíαllч αt <a href=https://t.me/+3owDFfIgyD1jYmFl>CV</a>
+wσrkíng σffícíαllч αt <a href=https://t.me/cvmoviesin>CV MOVIES</a>
 Use "🔍 Search Here" option to Search for Files INLINE. To know More about my Functions Click 🔘 Help.
 
 Join Our Official YoutubeChannel To Use This Bot <a href=https://youtube.com/channel/UCc_eDyNb2m6PAeiwgLNr9lg>CV MOVIE UPDATE</a>
 
-©CREATED BY<a href=>CV MOVIE</a>
+©CREATED BY<a href=https://t.me/ALL_MOVIE_CV_REQUEST>CV MOVIE</a>
 ©OWNER OF BOT<a href=https://t.me/Crosspromotiona>UNKOWN</a>"""
     HELP_TXT = """h̷e̷y̷ {}
 ̷h̷e̷r̷e̷ i̷s̷ h̷e̷l̷p̷ f̷o̷r̷ m̷y̷ c̷o̷m̷m̷a̷n̷d̷.̷"""
@@ -17,8 +17,8 @@ Join Our Official YoutubeChannel To Use This Bot <a href=https://youtube.com/cha
 ╔════❰ ABOUT MSG ❱═❍⊱
 ║╭━━━━━━━━━━━━━━━➣ 
 ║┣⪼ MY NAME - <a href=https://t.me/movie_sarch_bot>Puneeth Rajkumar⚡</a>
-║┣⪼ CREATED -  <a href=CV MOVIE</a>
-║┣⪼ GROUP -  <a href=https://t.me/Kannada_cinema_clubss>Click here</a>
+║┣⪼ CREATED -  <a href=https://t.me/cvmoviesin>CV MOVIE</a>
+║┣⪼ GROUP -  <a href=https://t.me/ALL_MOVIE_CV_REQUEST>Click here</a>
 ║┣⪼ Library - PYROGRAM
 ║┣⪼ Language - PYTHON 3
 ║┣⪼ Data Base - MANGO DB
